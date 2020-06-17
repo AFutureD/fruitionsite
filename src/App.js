@@ -119,7 +119,7 @@ export default function App() {
       <TextField
         fullWidth
         helperText={myDomainHelperText}
-        label="Your Domain (e.g. example.org)"
+        label="你的域名 (如： example.org)"
         onChange={handleMyDomain}
         margin="normal"
         placeholder={DEFAULT_DOMAIN}
@@ -129,7 +129,7 @@ export default function App() {
       <TextField
         fullWidth
         helperText={notionUrlHelperText}
-        label={`Notion URL for ${domain}`}
+        label={`公开页面的 Notion 链接 ${domain}`}
         margin="normal"
         onChange={handleNotionUrl}
         placeholder={DEFAULT_NOTION_URL}
