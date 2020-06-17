@@ -182,7 +182,7 @@ export default function App() {
           variant="outlined"
           color="primary"
         >
-          Add a pretty link
+          添加自定义子链接
         </Button>
       </section>
       <section>
@@ -192,7 +192,7 @@ export default function App() {
           variant="outlined"
           color="primary"
         >
-          Toggle Style And Script Settings
+          展开样式和 JS 脚本设置
         </Button>
       </section>
       <Collapse in={optional} timeout="auto" unmountOnExit>
@@ -241,7 +241,7 @@ export default function App() {
           disableElevation
           onClick={copy}
         >
-          {copied ? "Copied!" : "Copy the code"}
+          {copied ? "已复制!" : "复制代码"}
         </Button>
       </section>
       {noError ? (
