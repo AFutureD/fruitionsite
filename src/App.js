@@ -129,7 +129,7 @@ export default function App() {
       <TextField
         fullWidth
         helperText={notionUrlHelperText}
-        label={`公开页面的 Notion 链接 ${domain}`}
+        label={`公开页面的 Notion 链接`}
         margin="normal"
         onChange={handleNotionUrl}
         placeholder={DEFAULT_NOTION_URL}
