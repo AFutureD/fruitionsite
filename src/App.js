@@ -214,7 +214,7 @@ export default function App() {
         />
         <TextField
           fullWidth
-          label="Custom Google Font"
+          label="Custom Font"
           margin="normal"
           placeholder="Open Sans"
           onChange={handleGoogleFont}
