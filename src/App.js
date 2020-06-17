@@ -5,7 +5,7 @@ import "./styles.css";
 
 const DEFAULT_DOMAIN = "example.org";
 const DEFAULT_NOTION_URL =
-  "https://www.notion.so/Fruition-771ef38657244c27b9389734a9cbff44";
+  "https://www.notion.so/Future-d4c327c3511546aa89c42dd6ee7301d4";
 
 function validDomain(domain) {
   return domain.match(
