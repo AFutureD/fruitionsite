@@ -45,7 +45,7 @@ ${slugs
   const PAGE_TITLE = '${pageTitle || ''}';
   const PAGE_DESCRIPTION = '${pageDescription || ''}';
   
-  /* Step 4: enter a Google Font name, you can choose from https://fonts.google.com */
+  /* Step 4: enter a Google Font name, you can choose from https://fonts.font.im */
   const GOOGLE_FONT = '${googleFont || ''}';
   
   /* Step 5: enter any custom scripts you'd like */
@@ -182,7 +182,7 @@ ${slugs
   class HeadRewriter {
     element(element) {
       if (GOOGLE_FONT !== '') {
-        element.append(\`<link href="https://fonts.googleapis.com/css?family=\${GOOGLE_FONT.replace(' ', '+')}:Regular,Bold,Italic&display=swap" rel="stylesheet">
+        element.append(\`<link href="https://fonts.font.im/css?family=\${GOOGLE_FONT.replace(' ', '+')}:Regular,Bold,Italic&display=swap" rel="stylesheet">
         <style>* { font-family: "\${GOOGLE_FONT}" !important; }</style>\`, {
          html: true
         });
