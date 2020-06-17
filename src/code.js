@@ -23,7 +23,7 @@ export default function code(data) {
 
     return `/* CONFIGURATION STARTS HERE */
 
-  /* Step 1: enter your domain name like fruitionsite.com */
+  /* Step 1: enter your domain name like notion.afuture.me */
   const MY_DOMAIN = '${url}';
   
   /*
@@ -205,7 +205,7 @@ ${slugs
       this.SLUG_TO_PAGE = SLUG_TO_PAGE;
     }
     element(element) {
-      element.append(\`<div style="display:none">Powered by <a href="http://fruitionsite.com">Fruition</a></div>
+      element.append(\`<div style="display:none">Powered by <a href="http://notion.afuture.me">afuture</a></div>
       <script>
       const SLUG_TO_PAGE = \${JSON.stringify(this.SLUG_TO_PAGE)};
       const PAGE_TO_SLUG = {};
